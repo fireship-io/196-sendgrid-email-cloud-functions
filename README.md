@@ -5,7 +5,7 @@ Send transactional email from your app with **SendGrid** and **Firebase Cloud Fu
 
 ## Instructions
 
-Follow the full lesson to setup and deploy your [SendGrid Email Cloud Functions](https://fireship.io/lessons/sendgrid-transactional-email-guide/), then choose a frontend integration: 
+Follow the full lesson to setup and deploy your 📧👉 [SendGrid Email Cloud Functions](https://fireship.io/lessons/sendgrid-transactional-email-guide/), then choose a frontend integration: 
 
 - ✅ [Angular](https://fireship.io/snippets/sendgrid-angular/)
 - ✅ [Vue](https://fireship.io/snippets/sendgrid-vue/)
