@@ -14,7 +14,11 @@ const config = {
     appId: '1:758773997881:web:8991643725992873'
 }
 
-firebase.initializeApp(config);
+// Prevent errors caused by duplicate instances 
+// of Firebase being called (e.g. FCM)
+if (!firebase.apps.length) {
+  firebase.initializeApp(config);
+}
 
 export const app = firebase.app();
 export const db = firebase.firestore();
@@ -22,4 +26,4 @@ export const auth = firebase.auth();
 export const storage = firebase.storage();
 export const functions = firebase.functions();
 
-console.log(!!app.name ? 'Firebase Mode Activated!' : 'Firebase not working :(')
+console.log(!!app.name ? 'Firebase Mode Activated! 🔥' : 'Firebase not working 🙁');
